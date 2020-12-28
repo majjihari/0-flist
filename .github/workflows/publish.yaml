@@ -69,7 +69,6 @@ jobs:
         make production
         # cp zflist $GITHUB_WORKSPACE/zflist
         # strip -s $GITHUB_WORKSPACE/zflist
-
  
     - name: Publish to Registry
       uses: elgohr/Publish-Docker-Github-Action@master
