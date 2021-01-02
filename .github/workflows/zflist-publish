@@ -14,7 +14,7 @@ if [ "$ZFLIST_HUB_TOKEN" != "" ]; then
 fi
 
 export ZFLIST_HUB_USER=$INPUT_USER
-export ZFLIST_BACKEND="{\"host\": \"grid-hub.oginnovation.com\", \"port\": 9980, \"token\": \"$ZFLIST_HUB_TOKEN\"}"
+export ZFLIST_BACKEND="{\"host\": \"hub.oggrid.com\", \"port\": 9980, \"token\": \"$ZFLIST_HUB_TOKEN\"}"
 
 if [ "$action" == "PUBLISH" ]; then
     echo "Initializing new flist"
@@ -68,4 +68,3 @@ if [ "$action" == "MERGE" ]; then
     echo "Merging into $filename this list: $targetname"
     zflist hub merge $filename $targetname
 fi
-
