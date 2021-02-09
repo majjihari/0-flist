@@ -73,7 +73,7 @@ jobs:
     - name: Publish to Registry
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
-        name: maxux/zflist
+        name: mhpr/zflist
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         dockerfile: ${{ github.workspace }}/.github/workflows/Dockerfile
