@@ -14,7 +14,7 @@ setup(
     version = '1.0',
     description='Flist Python Library',
     long_description='Flist Python Library',
-    url='https://github.com/threefoldtech/0-flist',
+    url='https://github.com/majjihari/0-flist',
     author='Maxime Daniel',
     author_email='maxime@gig.tech',
     license='Apache 2.0',
